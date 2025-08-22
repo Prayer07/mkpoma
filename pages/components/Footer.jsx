@@ -14,7 +14,7 @@ export default function Footer() {
             08033085229
           </a>
         </p>
-        <p>
+        {/* <p>
           Facebook:{" "}
           <a
             href="https://facebook.com"
@@ -24,7 +24,7 @@ export default function Footer() {
           >
             Mkpoma
           </a>
-        </p>
+        </p> */}
         <p>Software-Developer:
           <a
             href="https://ezenwa-portfolio.vercel.app"

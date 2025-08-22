@@ -1,13 +1,10 @@
 import React from 'react';
-import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Link from 'next/link';
-import Footer from './components/Footer';
 
 export default function Home() {
   return (
     <>
-      {/* <Navbar /> */}
       <Header />
       <div className="text-center my-8">
         <Link href=" /lamps">
@@ -16,25 +13,6 @@ export default function Home() {
           </button>
         </Link>
       </div>
-      {/* <Footer /> */}
     </>
   );
 }
-
-
-
-
-// import React from 'react'
-// import Navbar from './components/Navbar'
-// import Header from './components/Header'
-// import Link from 'next/link'
-
-// export default function index() {
-//   return (
-//     <>
-//     <Navbar/>
-//     <Header/>
-//     <Link href={' /lamps'}> <button>View Store</button> </Link>
-//     </>
-//   )
-// }
