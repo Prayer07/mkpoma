@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav className="bg-gray-900 text-white shadow-lg fixed w-full z-50">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
         {/* Store Title */}
-        <h1 className="text-xl font-bold">Mkpoma&apos;s Auto-Lamps</h1>
+        <h1 className="text-xl font-bold">Mkpoma Auto-Lamps</h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
