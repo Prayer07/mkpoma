@@ -64,13 +64,7 @@ export default function MenStore() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {images.map((img) => (
-            <a
-              key={img.id}
-              href={`https://wa.me/${number}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition"
-            >
+            <div key={img.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
               <Image
                 src={img.pic}
                 width={400}
@@ -78,6 +72,11 @@ export default function MenStore() {
                 alt={`Men's product ${img.id}`}
                 className="w-full h-64 object-cover"
               />
+            <a
+              href={`https://wa.me/${number}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className="p-4">
                 {/* <p className="text-lg font-semibold text-gray-800">
                   : ₦{img..toLocaleString()}
@@ -87,6 +86,7 @@ export default function MenStore() {
                 </button>
               </div>
             </a>
+            </div>
           ))}
         </div>
       </div>
