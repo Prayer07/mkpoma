@@ -52,7 +52,37 @@ const images = [
   { id: 47, pic: "/dad/pic47.jpg" },
   { id: 48, pic: "/dad/pic48.jpg" },
   { id: 49, pic: "/dad/pic49.jpg" },
-  { id: 50, pic: "/dad/pic50.jpg" }
+  { id: 50, pic: "/dad/pic50.jpg" },
+  { id: 51, pic: "/dad/pic51.jpg"},
+  { id: 52, pic: "/dad/pic52.jpg" },
+  { id: 53, pic: "/dad/pic53.jpg" },
+  { id: 54, pic: "/dad/pic54.jpg" },
+  { id: 55, pic: "/dad/pic55.jpg" },
+  { id: 56, pic: "/dad/pic56.jpg" },
+  { id: 57, pic: "/dad/pic57.jpg" },
+  { id: 58, pic: "/dad/pic58.jpg" },
+  { id: 59, pic: "/dad/pic59.jpg" },
+  { id: 60, pic: "/dad/pic60.jpg" },
+  { id: 61, pic: "/dad/pic61.jpg" },
+  { id: 62, pic: "/dad/pic62.jpg" },
+  { id: 63, pic: "/dad/pic63.jpg" },
+  { id: 64, pic: "/dad/pic64.jpg" },
+  { id: 65, pic: "/dad/pic65.jpg" },
+  { id: 66, pic: "/dad/pic66.jpg" },
+  { id: 67, pic: "/dad/pic67.jpg" },
+  { id: 68, pic: "/dad/pic68.jpg" },
+  { id: 69, pic: "/dad/pic69.jpg" },
+  { id: 70, pic: "/dad/pic70.jpg" },
+  { id: 71, pic: "/dad/pic71.jpg" },
+  { id: 72, pic: "/dad/pic72.jpg" },
+  { id: 73, pic: "/dad/pic73.jpg" },
+  { id: 74, pic: "/dad/pic74.jpg" },
+  { id: 75, pic: "/dad/pic75.jpg" },
+  { id: 76, pic: "/dad/pic76.jpg" },
+  { id: 77, pic: "/dad/pic77.jpg" },
+  { id: 78, pic: "/dad/pic78.jpg" },
+  { id: 79, pic: "/dad/pic79.jpg" },
+  { id: 80, pic: "/dad/pic80.jpg" },
 ];
 
 const number = 2348033085229;
@@ -76,6 +106,7 @@ export default function MenStore() {
               href={`https://wa.me/${number}`}
               target="_blank"
               rel="noopener noreferrer"
+              className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition"
             >
               <div className="p-4">
                 {/* <p className="text-lg font-semibold text-gray-800">
